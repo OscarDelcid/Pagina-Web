@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Pagina web</title>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <form action="" enctype='/img/logo2.png' method='POST'>
+          <img src="{{ url_for('static', filename='img/logo2.png') }}" alt="" width="60" height="40" class="d-inline-block align-text-top">
+          Cerveceria De Colima
+        </a>
+      </div>
+    </nav>
+
+  </head>
+  <body background=" {{ url_for('static', filename='img/fondo-blanco-patron-puntos-abstracto_132230-117.jpg') }}" >
+    
+  <div>
+    <img src="{{ url_for('static', filename='img/colima2.jpg') }}" alt="" width="100%" height="100%">
+  </div>
+  <div class="bg-dark">
+    <center><h2><br> CONOCE LAS CERVEZAS DEL BIMESTRE MARZO - ABRIL</h2></center>
+  </div>
+  <div class="table-responsive">
+    <TABLE align="center" >
+            
+       <TD align="center"> <br> <a href="#"><img src="{{ url_for('static', filename='img/colimita.jpg') }}" width="40%" height="40%" ></a><h6 id="titleMenu4">CERVEZA COLIMITA LAGER BOTELLA<br>de $ 510.00</h6></TD>
+       <TD align="center"> <br> <a href="#"><img src="{{ url_for('static', filename='img/piedra-lisa-355-ml.jpg') }} " width="45%" height="40%" ></a><h6 id="titleMenu4">CERVEZA PIEDRA LISA SESSION IPA BOTELLA<br>de $ 550.00</h6></TD>
+       <TD align="center"> <br> <a href="#"><img src="{{ url_for('static', filename='img/cayaco.jpg') }} " width="73%" height="40%" ></a><h6 id="titleMenu4">CERVEZA CAYACO LAGER TROPICAL BOTELLA<br>de $ 475.00</h6></TD>
+    </TR>
+    <TR>
+      <TD align="center"> <br> <a href="#"><img src="{{ url_for('static', filename='img/páramo.jpg') }} " width="48%" height="40%" ></a><h6 id="titleMenu4">CERVEZA PÁRAMO PALE ALE BOTELLA<br>de $ 550.00</h6></TD>
+      <TD align="center"> <br> <a href="#"><img src="{{ url_for('static', filename='img/ticus.jpg') }} " width="50%" height="40%" ></a><h6 id="titleMenu4">CERVEZA TICÚS PORTER BOTELLA<br>de $ 550.00</h6></TD>
+      <TD align="center"> <br> <a href="#"><img src="{{ url_for('static', filename='img/Cerveza-Colimita-Lata-355ml.png') }} " width="83%" height="40%" ></a><h6 id="titleMenu4">CERVEZA COLIMITA LAGER LATA 24 PACK 355 ML<br>de $ 934.99</h6></TD>
+    </TR>
+  </table>
+  </div>
+
+  <div class="bg-dark" >
+    <center><h2 ><br> Mauka Hard Seltzer </h2></center>
+  </div>
+  <div class="table-responsive">
+    <TABLE align="center" >
+            
+       <TD align="center"> <br> <a href="#"><img src=https://cdn.shopify.com/s/files/1/0499/5324/3298/products/Bolsa-mauka-1_1200x1200.jpg?v=1633969987 width="74%" height="40%" ></a><h6 id="titleMenu4">BOLSA MANTA MAUKA MIX<br>$ 120.00</h6></TD>
+       <TD align="center"> <br> <a href="#"><img src=https://cdn.shopify.com/s/files/1/0499/5324/3298/products/hard-seltzer-mauka-limon_sal_1200x1200.jpg?v=1616034213 width="75%" height="40%" ></a><h6 id="titleMenu4">HARD SELTZER MAUKA LIMON CON SAL LATA 24 PACK 355 ML<br>$ 624.00</h6></TD>
+       <TD align="center"> <br> <a href="#"><img src=https://cdn.shopify.com/s/files/1/0499/5324/3298/products/hard-seltzer-mauka-mango-zoom_1200x1200.jpg?v=1616035089 width="73%" height="40%" ></a><h6 id="titleMenu4">HARD SELTZER MAUKA MANGO LATA 24 PACK 355 ML<br>de $ 624.00</h6></TD>
+    </TR>
+    <TR>
+      <td></td>
+      <TD align="center"> <br> <a href="#"><img src=https://cdn.shopify.com/s/files/1/0499/5324/3298/products/hard-seltzer-mauka-maracuya-zoom_1200x1200.jpg?v=1618608514 width="75%" height="40%" ></a><h6 id="titleMenu4">HARD SELTZER MAUKA MARACUYA LATA 24 PACK 355 ML<br>$ 624.00</h6></TD>
+      <td></td>
+    </TR>
+  </table>
+  </div>
+  <div class="bg-dark">
+    <TABLE align="center" >
+            
+      <TD align="center"> <br> <h6 id="titleMenu5">Contáctanos</h6></TD>
+      <td></td>
+      <TD align="center"> <br> <h6 id="titleMenu5">Cervecería </h6></TD>
+      <td></td>
+      <TD align="center"> <br> <h6 id="titleMenu5">Atención</h6></TD>   
+    </TR>
+   <TR>
+    <TD align="center"> <br> <h6 id="titleMenu5">Carretar Colima - Guadalajara km 5, Trapiche, <br> Cuauhtémoc, Colima.</h6></TD>
+    <td></td>
+    <TD align="center"> <br> <h6 id="titleMenu5">Ser de aquí <br> Trapiches <br> Club Colima <br> Politicas y términos </h6></TD>
+    <td></td>
+    <TD align="center"> <br> <h6 id="titleMenu5">Rastrea tu pedido <br> Facturación <br> Distribución <br> Preguntas frecuentes <br> Contacto </h6></TD>
+   </TR>
+ </table>
+  </div>
+  
+  <style>
+    h6{
+    font-size: 1vw;
+}
+
+h2{
+  color: #fff;
+}
+
+#titleMenu5{
+  font-size: 1vw;
+  color: #fff;
+}
+
+  </style>
+  </body>
+</html>
